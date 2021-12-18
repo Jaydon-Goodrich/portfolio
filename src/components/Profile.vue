@@ -26,9 +26,9 @@
                         <b-col cols="2"></b-col>
                         <b-col cols="8" style="text-align: center;">
                             <b-row style="padding-top: 30px; text-align: center;">
-                                <b-col cols="4"><b-icon @click="display('tech')" icon="tools" font-scale="2.5" class="rounded p-2" style="color: #66FCF1; border: 1px solid #66FCF1;"></b-icon></b-col>
-                                <b-col cols="4"><b-icon @click="display('projects')" icon="grid-fill" font-scale="2.5" class="rounded p-2" style="color: #66FCF1; border: 1px solid #66FCF1;"></b-icon></b-col>
-                                <b-col cols="4"><b-icon @click="display('about')" icon="person-fill" font-scale="2.5" class="rounded p-2" style="color: #66FCF1; border: 1px solid #66FCF1;"></b-icon></b-col>
+                                <b-col cols="4"><b-icon @click="display('tech')" icon="tools" font-scale="2.5" class="rounded p-2" :style="techSection == false ? 'color: #66FCF1; border: 1px solid #66FCF1;' : 'color: white; border: 1px solid white' "></b-icon></b-col>
+                                <b-col cols="4"><b-icon @click="display('projects')" icon="grid-fill" font-scale="2.5" class="rounded p-2" :style="projectSection == false ? 'color: #66FCF1; border: 1px solid #66FCF1;' : 'color: white; border: 1px solid white' "></b-icon></b-col>
+                                <b-col cols="4"><b-icon @click="display('about')" icon="person-fill" font-scale="2.5" class="rounded p-2" :style="aboutSection == false ? 'color: #66FCF1; border: 1px solid #66FCF1;' : 'color: white; border: 1px solid white' "></b-icon></b-col>
                             </b-row>
                         </b-col>
                         <b-col cols="2"></b-col>
@@ -147,6 +147,9 @@ export default {
     @import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap'); 
     h2 {
         font-family: 'Oooh Baby', cursive;
+    }
+    .clicked {
+        color: white;
     }
     /* 
         0B0C10
