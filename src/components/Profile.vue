@@ -6,7 +6,7 @@
         <b-row h-60 style="background-color: #0d0d0d; height: 100%">
             <b-col cols="1"></b-col>
             <b-col cols="10">
-                <b-card style="z-index: 10; height: 90vh; margin-top: -100px; margin-bottom: 100px; background-color: #1F2833;">
+                <b-card style="z-index: 10; height: 100vh; margin-top: -100px; margin-bottom: 50px;  background-color: #1F2833;">
                     <b-row>
                         <b-col cols="3"></b-col>
                         <b-col cols="6" style="text-align: center"><img src="../assets/profileImgBW.jpg" alt="a picture of Jaydon Goodrich" style="width: 150px; padding: 0px; margin-top: -100px; border-radius: 50%;"></b-col>
