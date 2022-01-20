@@ -1,16 +1,16 @@
 <template style="background-color: #0d0d0d;">
-    <b-container fluid>
-        <b-row style="background-color: #0B0C10; height: 40vh">
+    <b-container fluid style="height: 100vh">
+        <b-row class="h-40" style="background-color: #0B0C10;">
             <img style="padding: 0px" src="../assets/bgimage2.jpg" />
         </b-row>
-        <b-row h-60 style="background-color: #0d0d0d; height: 100%">
+        <b-row class="h-60" style="background-color: #0d0d0d;">
             <b-col cols="1"></b-col>
             <b-col cols="10">
-                <b-card style="z-index: 10; height: 100vh; margin-top: -100px; margin-bottom: 50px;  background-color: #1F2833;">
+                <b-card style="z-index: 10; margin-top: -100px; margin-bottom: 1em;  background-color: #1F2833;">
                     <b-row>
-                        <b-col cols="3"></b-col>
-                        <b-col cols="6" style="text-align: center"><img src="../assets/profileImgBW.jpg" alt="a picture of Jaydon Goodrich" style="width: 150px; padding: 0px; margin-top: -100px; border-radius: 50%;"></b-col>
-                        <b-col cols="3"></b-col>
+                        <b-col cols="2"></b-col>
+                        <b-col cols="8" style="text-align: center;"><img src="../assets/profileImgBW.jpg" alt="a picture of Jaydon Goodrich" style="width: 150px; padding: 0px; margin-top: -100px; border-radius: 50%;"></b-col>
+                        <b-col cols="2"></b-col>
                     </b-row>
                     <b-row>
                         <b-col cols="2"></b-col>
@@ -41,23 +41,23 @@
                             <b-col cols="2"></b-col>
                         </b-row>
                         <b-row class="pt-3" style="text-align: center; padding: 0px;">
-                            <b-col cols="4"><img src="../assets/html_logo.png" alt="Dart logo" style="width: 50px;"></b-col>
-                            <b-col cols="4"><img src="../assets/css_logo.png" alt="Dart logo" style="width: 50px;"></b-col>
-                            <b-col cols="4"><img src="../assets/js_logo.png" alt="Dart logo" style="width: 50px;"></b-col>
+                            <b-col cols="4"><img src="../assets/html_logo.png" alt="HTML logo" style="width: 50px;"></b-col>
+                            <b-col cols="4"><img src="../assets/css_logo.png" alt="CSS logo" style="width: 50px;"></b-col>
+                            <b-col cols="4"><img src="../assets/js_logo.png" alt="JavaScript logo" style="width: 50px;"></b-col>
                         </b-row>
                         <b-row class="pt-3" style="text-align: center">
-                            <b-col cols="4"><img src="../assets/node_logo.png" alt="Dart logo" style="width: 50px;"></b-col>
-                            <b-col cols="4"><img src="../assets/php-logo.svg" alt="Dart logo" style="width: 50px; padding: 0px;"></b-col>
-                            <b-col cols="4"><img src="../assets/vue_logo.png" alt="Dart logo" style="width: 50px; padding: 0px;"></b-col>
+                            <b-col cols="4"><img src="../assets/node_logo.png" alt="NodeJs logo" style="width: 50px;"></b-col>
+                            <b-col cols="4"><img src="../assets/php-logo.svg" alt="Php logo" style="width: 50px; padding: 0px;"></b-col>
+                            <b-col cols="4"><img src="../assets/vue_logo.png" alt="Vue logo" style="width: 50px; padding: 0px;"></b-col>
                         </b-row>
                         <b-row class="pt-3" style="text-align: center">
-                            <b-col cols="4"><img src="../assets/react_logo.png" alt="Dart logo" style="width: 50px; padding: 0px;"></b-col>
-                            <b-col cols="4"><img src="../assets/laravel_logo.png" alt="Dart logo" style="width: 50px; padding: 0px;"></b-col>
-                            <b-col cols="4"><img src="../assets/Flutter.png" alt="Dart logo" style="width: 50px; padding: 0px;"></b-col>
+                            <b-col cols="4"><img src="../assets/react_logo.png" alt="React logo" style="width: 50px; padding: 0px;"></b-col>
+                            <b-col cols="4"><img src="../assets/laravel_logo.png" alt="Laravel logo" style="width: 50px; padding: 0px;"></b-col>
+                            <b-col cols="4"><img src="../assets/Flutter.png" alt="Flutter logo" style="width: 50px; padding: 0px;"></b-col>
                         </b-row>
                         <b-row class="pt-3" style="text-align: center">
-                            <b-col cols="4"><img src="../assets/firebase_logo.png" alt="Dart logo" style="width: 50px; padding: 0px;"></b-col>
-                            <b-col cols="4"><img src="../assets/mysql_logo.png" alt="Dart logo" style="width: 50px; padding: 0px;"></b-col>
+                            <b-col cols="4"><img src="../assets/firebase_logo.png" alt="Firebase logo" style="width: 50px; padding: 0px;"></b-col>
+                            <b-col cols="4"><img src="../assets/mysql_logo.png" alt="MySQL logo" style="width: 50px; padding: 0px;"></b-col>
                             <b-col cols="4"><img src="../assets/dart_logo.png" alt="Dart logo" style="width: 50px; padding: 0px;"></b-col>
                         </b-row>
                         </b-col>
@@ -70,12 +70,12 @@
                                 <b-col cols="2"></b-col>    
                             </b-row>
                             <b-row>
-                                <b-col cols="6" style="padding: 5px;"><a href="https://flight-deck-avionics.vercel.app/" target="_blank"><img style="width: 100%" src="../assets/flight_deck.png" alt=""></a></b-col>
-                                <b-col cols="6" style="padding: 5px;"><a href="https://jaydon-goodrich.github.io/ultimatertis/" target="_blank"><img style="width: 100%" src="../assets/ultimatetris.png" alt=""></a></b-col>
+                                <b-col cols="6" style="padding: 5px;"><a href="https://flight-deck-avionics.vercel.app/" target="_blank"><img style="width: 10em" src="../assets/flight_deck.png" alt=""></a></b-col>
+                                <b-col cols="6" style="padding: 5px;"><a href="https://jaydon-goodrich.github.io/ultimatertis/" target="_blank"><img style="width: 10em" src="../assets/ultimatetris.png" alt=""></a></b-col>
                             </b-row>
                             <b-row>
-                                <b-col cols="6" style="padding: 5px;"><a href="https://ancient-lake-97986.herokuapp.com/" target="_blank"><img style="width: 100%" src="../assets/dine_Store1.png" alt=""></a></b-col>
-                                <b-col cols="6" style="padding: 5px;"><a href="https://github.com/Jaydon-Goodrich/game-finder" target="_blank"><img style="width: 100%" src="../assets/game_finder.png" alt=""></a></b-col>
+                                <b-col cols="6" style="padding: 5px;"><a href="https://ancient-lake-97986.herokuapp.com/" target="_blank"><img style="width: 10em" src="../assets/dine_Store1.png" alt=""></a></b-col>
+                                <b-col cols="6" style="padding: 5px;"><a href="https://github.com/Jaydon-Goodrich/game-finder" target="_blank"><img style="width: 10em" src="../assets/game_finder.png" alt=""></a></b-col>
                             </b-row>
                         </b-col>
                     </b-row>
